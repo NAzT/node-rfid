@@ -1,0 +1,31 @@
+{
+  "name": "rfid",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/nat/node-rfid",
+  "author": {
+    "name": "Nat",
+    "email": "nat.wrw@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nazt/node-rfid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nazt/node-rfid/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/nazt/node-rfid/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "dependencies": {
+    "serialport": "~1.3.1"
+  }
+}
