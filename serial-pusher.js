@@ -5,8 +5,8 @@ var Pusher = require('pusher');
 
 var pusher = new Pusher({
   appId: '69516',
-  key: '8ef39383668f7524bd31',
-  secret: '59df92a183ff4ddbe546'
+  key: '',
+  secret: ''
 });
 
 

@@ -11,6 +11,9 @@ var serialPort = new SerialPort("/dev/tty.SLAB_USBtoUART", {
 });
 
 
+var ALLOW_CARDS = ['7550FD2D', 'B5D2422E'];
+var acl_passed = false;
+
 var cardId = [] 
 serialPort.on('data', function(data) {
   var b = data.readUInt8(0);
